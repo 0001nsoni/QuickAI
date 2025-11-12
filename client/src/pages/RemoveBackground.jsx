@@ -1,9 +1,7 @@
 import { Edit, Eraser, Hash, Sparkles } from 'lucide-react'
 import React, { useState } from 'react'
 const RemoveBackground = () => {
-  const blogCategories = ['General', 'Technology', 'Business', 'Health', 'Lifestyle', 'Education', 'Travel', 'Food']
-
-  const [selectedCategory, setSelectedCategory] = useState('General')
+  
   const [input, setInput] = useState('')
   const onSubmitHandler = async (e) => {
     e.preventDefault();
